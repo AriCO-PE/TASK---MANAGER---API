@@ -5,7 +5,7 @@
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql)](https://postgresql.org)
 [![Docker](https://img.shields.io/badge/Docker-2CA5E0?style=flat&logo=docker)](https://docker.com)
 [![Tests](https://github.com/TU_USUARIO/task-manager-api/actions/workflows/test.yml/badge.svg)](https://github.com/TU_USUARIO/task-manager-api/actions)
-
+[![Python Tests](https://github.com/AriCO-PE/TASK---MANAGER---API/actions/workflows/test.yml/badge.svg)](https://github.com/AriCO-PE/TASK---MANAGER---API/actions)
 A modern Task Manager REST API built with FastAPI, featuring JWT authentication, PostgreSQL database, and Docker containerization.
 
 ## ✨ Features
