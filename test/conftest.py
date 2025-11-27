@@ -1,6 +1,6 @@
 import sys
 import os
-sys.path.insert(0, '/app/app')  # ← AÑADE ESTO
+sys.path.insert(0, '/app/app')  
 
 import pytest
 from fastapi.testclient import TestClient
@@ -11,8 +11,6 @@ from app.main import app
 from app.database import get_db
 from app.models import Base
 
-# El resto del código igual...
-# Base de datos de testing
 TEST_DATABASE_URL = "sqlite:///./test.db"
 engine = create_engine(TEST_DATABASE_URL)
 TestingSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
